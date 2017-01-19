@@ -5,6 +5,10 @@ This repository contains all code to handle CORS in [ExpressJS](http://expressjs
 Nowadays when we develop web application often we create different web services that will handle our http requests. Those requests may come from different domain or mobile devices. In this case you
 need to enable CORS request (Cross-Origin Resource Sharing)
 
+In general if you make a request from web application to a server in different domain and the CORS is not enabled you will get something like this
+
+![alt disabled cors](error-cors.png)
+
 ## For more information about CORS please see the following resources:
 
 [HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
@@ -45,7 +49,7 @@ Now you can see two different server started now open browser and point to [http
 
 ## Web Application to test CORS request to the API server
 
-![alt enabled sors](cors-enabled.png)
+![alt enabled cors](cors-enabled.png)
 
 
 
