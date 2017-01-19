@@ -44,6 +44,7 @@ module.exports = function createServer() {
   app.use(responsePoweredBy("@NickNaso"))
   app.use(responseTime())
 
+  // https://www.npmjs.com/package/cors#enabling-cors-pre-flight
   app.options('*', cors())
 
   /**
